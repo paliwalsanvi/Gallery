@@ -1,0 +1,744 @@
+<style>
+    body
+    {
+        margin: 0;
+    }
+    .gallery 
+    {
+        width: 280px;
+        border: 1px solid grey;
+        border-radius: 10px;
+        margin-bottom: 10px;
+    }
+    .gallery img 
+    {
+        width: 100%;
+        border-radius: 10px;
+    }
+    .gallery:hover 
+    {
+        border: 2px solid brown;
+    }
+    .info 
+    {
+        text-align: center;
+    }
+    button
+    {
+        background-color: white;
+        border: 1px solid gray;
+        color: black;
+        padding: 10px;
+        font-size: 22px;
+        border-radius: 10px;
+        margin-bottom: 10px;
+    }
+    h3 
+    {
+      margin: 5px;        
+    }
+
+    .flexdemo 
+    {
+        /*
+        arrange elements in a row wise
+        */
+        display: flex;  
+        /* justify-content: center;  */
+        /* justify-content: space-between; */
+        justify-content: space-evenly;
+        /* justify-content: space-around; */
+        flex-wrap: wrap;
+    }
+
+</style>
+
+<div class="flexdemo">
+
+<div class="gallery">
+    <a href="https://m.media-amazon.com/images/I/6192vQUNCQL._UX569_.jpg">
+        <img src="https://m.media-amazon.com/images/I/6192vQUNCQL._UX569_.jpg" height="280"/>
+    </a>
+    <div class="info">
+        <h3 style="color: gray;">LEE</h3>
+        <h3>T-Shirt</h3>
+        <h3>&#8377;1299.99 <small><del>&#8377;1499.99</del></small> <span style="color: green;">10% Off</span></h3>
+        <h3 style="color: gray;">Size S, M, L, XL</h3>
+        <button>Add to cart</button>
+        <!-- <h2>&#8377;1299.99 <small><del>&#8377;1499.99</del></small> 10% Off</h2>
+        <h2>&#8377;1299.99 <big><del>&#8377;1499.99</del></big> 10% Off</h2> -->
+    </div>
+</div>
+
+<div class="gallery">
+    <a href="https://5.imimg.com/data5/XS/CN/MY-51547825/printed-500x500.jpg">
+        <img src="https://5.imimg.com/data5/XS/CN/MY-51547825/printed-500x500.jpg" height="280"/>
+    </a>
+    <div class="info">
+        <h3 style="color: gray;">John Player</h3>
+        <h3>Shirt</h3>
+        <h3>&#8377;1299.99 <small><del>&#8377;1499.99</del></small> <span style="color: green;">10% Off</span></h3>
+        <h3 style="color: gray;">Size S, M, L, XL</h3>
+        <button>Add to cart</button>
+        <!-- <h2>&#8377;1299.99 <small><del>&#8377;1499.99</del></small> 10% Off</h2>
+        <h2>&#8377;1299.99 <big><del>&#8377;1499.99</del></big> 10% Off</h2> -->
+    </div>
+</div>
+
+<div class="gallery">
+    <a href="https://5.imimg.com/data5/SELLER/Default/2020/8/KG/AJ/MD/64760880/adidas-sports-shoes-500x500.jpg">
+        <img src="https://5.imimg.com/data5/SELLER/Default/2020/8/KG/AJ/MD/64760880/adidas-sports-shoes-500x500.jpg" height="280"/>
+    </a>
+    <div class="info">
+        <h3 style="color: gray;">Adidas</h3>
+        <h3>Sport Shoes</h3>
+        <h3>&#8377;2299.99 <small><del>&#8377;2499.99</del></small> <span style="color: green;">10% Off</span></h3>
+        <h3 style="color: gray;">Size S, M, L, XL</h3>
+        <button>Add to cart</button>
+    </div>
+</div>
+
+<div class="gallery">
+    <a href="https://m.media-amazon.com/images/I/61ZjlBOp+rL._SX425_.jpg
+    ">
+        <img src="https://m.media-amazon.com/images/I/61ZjlBOp+rL._SX425_.jpg
+        " height="280"/>
+    </a>
+    <div class="info">
+        <h3 style="color: gray;">Real Me</h3>
+        <h3>Smart Watch</h3>
+        <h3>&#8377;2299.99 <small><del>&#8377;2499.99</del></small> <span style="color: green;">10% Off</span></h3>
+        <h3 style="color: gray;">Size Regular</h3>
+        <button>Add to cart</button>
+    </div>
+</div>
+
+<div class="gallery">
+    <a href="https://m.media-amazon.com/images/I/6192vQUNCQL._UX569_.jpg">
+        <img src="https://m.media-amazon.com/images/I/6192vQUNCQL._UX569_.jpg" height="280"/>
+    </a>
+    <div class="info">
+        <h3 style="color: gray;">LEE</h3>
+        <h3>T-Shirt</h3>
+        <h3>&#8377;1299.99 <small><del>&#8377;1499.99</del></small> <span style="color: green;">10% Off</span></h3>
+        <h3 style="color: gray;">Size S, M, L, XL</h3>
+        <button>Add to cart</button>
+        <!-- <h2>&#8377;1299.99 <small><del>&#8377;1499.99</del></small> 10% Off</h2>
+        <h2>&#8377;1299.99 <big><del>&#8377;1499.99</del></big> 10% Off</h2> -->
+    </div>
+</div>
+
+<div class="gallery">
+    <a href="https://5.imimg.com/data5/XS/CN/MY-51547825/printed-500x500.jpg">
+        <img src="https://5.imimg.com/data5/XS/CN/MY-51547825/printed-500x500.jpg" height="280"/>
+    </a>
+    <div class="info">
+        <h3 style="color: gray;">John Player</h3>
+        <h3>Shirt</h3>
+        <h3>&#8377;1299.99 <small><del>&#8377;1499.99</del></small> <span style="color: green;">10% Off</span></h3>
+        <h3 style="color: gray;">Size S, M, L, XL</h3>
+        <button>Add to cart</button>
+        <!-- <h2>&#8377;1299.99 <small><del>&#8377;1499.99</del></small> 10% Off</h2>
+        <h2>&#8377;1299.99 <big><del>&#8377;1499.99</del></big> 10% Off</h2> -->
+    </div>
+</div>
+
+<div class="gallery">
+    <a href="https://5.imimg.com/data5/SELLER/Default/2020/8/KG/AJ/MD/64760880/adidas-sports-shoes-500x500.jpg">
+        <img src="https://5.imimg.com/data5/SELLER/Default/2020/8/KG/AJ/MD/64760880/adidas-sports-shoes-500x500.jpg" height="280"/>
+    </a>
+    <div class="info">
+        <h3 style="color: gray;">Adidas</h3>
+        <h3>Sport Shoes</h3>
+        <h3>&#8377;2299.99 <small><del>&#8377;2499.99</del></small> <span style="color: green;">10% Off</span></h3>
+        <h3 style="color: gray;">Size S, M, L, XL</h3>
+        <button>Add to cart</button>
+    </div>
+</div>
+
+<div class="gallery">
+    <a href="https://m.media-amazon.com/images/I/61ZjlBOp+rL._SX425_.jpg
+    ">
+        <img src="https://m.media-amazon.com/images/I/61ZjlBOp+rL._SX425_.jpg
+        " height="280"/>
+    </a>
+    <div class="info">
+        <h3 style="color: gray;">Real Me</h3>
+        <h3>Smart Watch</h3>
+        <h3>&#8377;2299.99 <small><del>&#8377;2499.99</del></small> <span style="color: green;">10% Off</span></h3>
+        <h3 style="color: gray;">Size Regular</h3>
+        <button>Add to cart</button>
+    </div>
+</div>
+<div class="gallery">
+    <a href="https://m.media-amazon.com/images/I/6192vQUNCQL._UX569_.jpg">
+        <img src="https://m.media-amazon.com/images/I/6192vQUNCQL._UX569_.jpg" height="280"/>
+    </a>
+    <div class="info">
+        <h3 style="color: gray;">LEE</h3>
+        <h3>T-Shirt</h3>
+        <h3>&#8377;1299.99 <small><del>&#8377;1499.99</del></small> <span style="color: green;">10% Off</span></h3>
+        <h3 style="color: gray;">Size S, M, L, XL</h3>
+        <button>Add to cart</button>
+        <!-- <h2>&#8377;1299.99 <small><del>&#8377;1499.99</del></small> 10% Off</h2>
+        <h2>&#8377;1299.99 <big><del>&#8377;1499.99</del></big> 10% Off</h2> -->
+    </div>
+</div>
+
+<div class="gallery">
+    <a href="https://5.imimg.com/data5/XS/CN/MY-51547825/printed-500x500.jpg">
+        <img src="https://5.imimg.com/data5/XS/CN/MY-51547825/printed-500x500.jpg" height="280"/>
+    </a>
+    <div class="info">
+        <h3 style="color: gray;">John Player</h3>
+        <h3>Shirt</h3>
+        <h3>&#8377;1299.99 <small><del>&#8377;1499.99</del></small> <span style="color: green;">10% Off</span></h3>
+        <h3 style="color: gray;">Size S, M, L, XL</h3>
+        <button>Add to cart</button>
+        <!-- <h2>&#8377;1299.99 <small><del>&#8377;1499.99</del></small> 10% Off</h2>
+        <h2>&#8377;1299.99 <big><del>&#8377;1499.99</del></big> 10% Off</h2> -->
+    </div>
+</div>
+
+<div class="gallery">
+    <a href="https://5.imimg.com/data5/SELLER/Default/2020/8/KG/AJ/MD/64760880/adidas-sports-shoes-500x500.jpg">
+        <img src="https://5.imimg.com/data5/SELLER/Default/2020/8/KG/AJ/MD/64760880/adidas-sports-shoes-500x500.jpg" height="280"/>
+    </a>
+    <div class="info">
+        <h3 style="color: gray;">Adidas</h3>
+        <h3>Sport Shoes</h3>
+        <h3>&#8377;2299.99 <small><del>&#8377;2499.99</del></small> <span style="color: green;">10% Off</span></h3>
+        <h3 style="color: gray;">Size S, M, L, XL</h3>
+        <button>Add to cart</button>
+    </div>
+</div>
+
+<div class="gallery">
+    <a href="https://m.media-amazon.com/images/I/61ZjlBOp+rL._SX425_.jpg
+    ">
+        <img src="https://m.media-amazon.com/images/I/61ZjlBOp+rL._SX425_.jpg
+        " height="280"/>
+    </a>
+    <div class="info">
+        <h3 style="color: gray;">Real Me</h3>
+        <h3>Smart Watch</h3>
+        <h3>&#8377;2299.99 <small><del>&#8377;2499.99</del></small> <span style="color: green;">10% Off</span></h3>
+        <h3 style="color: gray;">Size Regular</h3>
+        <button>Add to cart</button>
+    </div>
+</div>
+<div class="gallery">
+    <a href="https://m.media-amazon.com/images/I/6192vQUNCQL._UX569_.jpg">
+        <img src="https://m.media-amazon.com/images/I/6192vQUNCQL._UX569_.jpg" height="280"/>
+    </a>
+    <div class="info">
+        <h3 style="color: gray;">LEE</h3>
+        <h3>T-Shirt</h3>
+        <h3>&#8377;1299.99 <small><del>&#8377;1499.99</del></small> <span style="color: green;">10% Off</span></h3>
+        <h3 style="color: gray;">Size S, M, L, XL</h3>
+        <button>Add to cart</button>
+        <!-- <h2>&#8377;1299.99 <small><del>&#8377;1499.99</del></small> 10% Off</h2>
+        <h2>&#8377;1299.99 <big><del>&#8377;1499.99</del></big> 10% Off</h2> -->
+    </div>
+</div>
+
+<div class="gallery">
+    <a href="https://5.imimg.com/data5/XS/CN/MY-51547825/printed-500x500.jpg">
+        <img src="https://5.imimg.com/data5/XS/CN/MY-51547825/printed-500x500.jpg" height="280"/>
+    </a>
+    <div class="info">
+        <h3 style="color: gray;">John Player</h3>
+        <h3>Shirt</h3>
+        <h3>&#8377;1299.99 <small><del>&#8377;1499.99</del></small> <span style="color: green;">10% Off</span></h3>
+        <h3 style="color: gray;">Size S, M, L, XL</h3>
+        <button>Add to cart</button>
+        <!-- <h2>&#8377;1299.99 <small><del>&#8377;1499.99</del></small> 10% Off</h2>
+        <h2>&#8377;1299.99 <big><del>&#8377;1499.99</del></big> 10% Off</h2> -->
+    </div>
+</div>
+
+<div class="gallery">
+    <a href="https://5.imimg.com/data5/SELLER/Default/2020/8/KG/AJ/MD/64760880/adidas-sports-shoes-500x500.jpg">
+        <img src="https://5.imimg.com/data5/SELLER/Default/2020/8/KG/AJ/MD/64760880/adidas-sports-shoes-500x500.jpg" height="280"/>
+    </a>
+    <div class="info">
+        <h3 style="color: gray;">Adidas</h3>
+        <h3>Sport Shoes</h3>
+        <h3>&#8377;2299.99 <small><del>&#8377;2499.99</del></small> <span style="color: green;">10% Off</span></h3>
+        <h3 style="color: gray;">Size S, M, L, XL</h3>
+        <button>Add to cart</button>
+    </div>
+</div>
+
+<div class="gallery">
+    <a href="https://m.media-amazon.com/images/I/61ZjlBOp+rL._SX425_.jpg
+    ">
+        <img src="https://m.media-amazon.com/images/I/61ZjlBOp+rL._SX425_.jpg
+        " height="280"/>
+    </a>
+    <div class="info">
+        <h3 style="color: gray;">Real Me</h3>
+        <h3>Smart Watch</h3>
+        <h3>&#8377;2299.99 <small><del>&#8377;2499.99</del></small> <span style="color: green;">10% Off</span></h3>
+        <h3 style="color: gray;">Size Regular</h3>
+        <button>Add to cart</button>
+    </div>
+</div>
+<div class="gallery">
+    <a href="https://m.media-amazon.com/images/I/6192vQUNCQL._UX569_.jpg">
+        <img src="https://m.media-amazon.com/images/I/6192vQUNCQL._UX569_.jpg" height="280"/>
+    </a>
+    <div class="info">
+        <h3 style="color: gray;">LEE</h3>
+        <h3>T-Shirt</h3>
+        <h3>&#8377;1299.99 <small><del>&#8377;1499.99</del></small> <span style="color: green;">10% Off</span></h3>
+        <h3 style="color: gray;">Size S, M, L, XL</h3>
+        <button>Add to cart</button>
+        <!-- <h2>&#8377;1299.99 <small><del>&#8377;1499.99</del></small> 10% Off</h2>
+        <h2>&#8377;1299.99 <big><del>&#8377;1499.99</del></big> 10% Off</h2> -->
+    </div>
+</div>
+
+<div class="gallery">
+    <a href="https://5.imimg.com/data5/XS/CN/MY-51547825/printed-500x500.jpg">
+        <img src="https://5.imimg.com/data5/XS/CN/MY-51547825/printed-500x500.jpg" height="280"/>
+    </a>
+    <div class="info">
+        <h3 style="color: gray;">John Player</h3>
+        <h3>Shirt</h3>
+        <h3>&#8377;1299.99 <small><del>&#8377;1499.99</del></small> <span style="color: green;">10% Off</span></h3>
+        <h3 style="color: gray;">Size S, M, L, XL</h3>
+        <button>Add to cart</button>
+        <!-- <h2>&#8377;1299.99 <small><del>&#8377;1499.99</del></small> 10% Off</h2>
+        <h2>&#8377;1299.99 <big><del>&#8377;1499.99</del></big> 10% Off</h2> -->
+    </div>
+</div>
+
+<div class="gallery">
+    <a href="https://5.imimg.com/data5/SELLER/Default/2020/8/KG/AJ/MD/64760880/adidas-sports-shoes-500x500.jpg">
+        <img src="https://5.imimg.com/data5/SELLER/Default/2020/8/KG/AJ/MD/64760880/adidas-sports-shoes-500x500.jpg" height="280"/>
+    </a>
+    <div class="info">
+        <h3 style="color: gray;">Adidas</h3>
+        <h3>Sport Shoes</h3>
+        <h3>&#8377;2299.99 <small><del>&#8377;2499.99</del></small> <span style="color: green;">10% Off</span></h3>
+        <h3 style="color: gray;">Size S, M, L, XL</h3>
+        <button>Add to cart</button>
+    </div>
+</div>
+
+<div class="gallery">
+    <a href="https://m.media-amazon.com/images/I/61ZjlBOp+rL._SX425_.jpg
+    ">
+        <img src="https://m.media-amazon.com/images/I/61ZjlBOp+rL._SX425_.jpg
+        " height="280"/>
+    </a>
+    <div class="info">
+        <h3 style="color: gray;">Real Me</h3>
+        <h3>Smart Watch</h3>
+        <h3>&#8377;2299.99 <small><del>&#8377;2499.99</del></small> <span style="color: green;">10% Off</span></h3>
+        <h3 style="color: gray;">Size Regular</h3>
+        <button>Add to cart</button>
+    </div>
+</div>
+<div class="gallery">
+    <a href="https://m.media-amazon.com/images/I/6192vQUNCQL._UX569_.jpg">
+        <img src="https://m.media-amazon.com/images/I/6192vQUNCQL._UX569_.jpg" height="280"/>
+    </a>
+    <div class="info">
+        <h3 style="color: gray;">LEE</h3>
+        <h3>T-Shirt</h3>
+        <h3>&#8377;1299.99 <small><del>&#8377;1499.99</del></small> <span style="color: green;">10% Off</span></h3>
+        <h3 style="color: gray;">Size S, M, L, XL</h3>
+        <button>Add to cart</button>
+        <!-- <h2>&#8377;1299.99 <small><del>&#8377;1499.99</del></small> 10% Off</h2>
+        <h2>&#8377;1299.99 <big><del>&#8377;1499.99</del></big> 10% Off</h2> -->
+    </div>
+</div>
+
+<div class="gallery">
+    <a href="https://5.imimg.com/data5/XS/CN/MY-51547825/printed-500x500.jpg">
+        <img src="https://5.imimg.com/data5/XS/CN/MY-51547825/printed-500x500.jpg" height="280"/>
+    </a>
+    <div class="info">
+        <h3 style="color: gray;">John Player</h3>
+        <h3>Shirt</h3>
+        <h3>&#8377;1299.99 <small><del>&#8377;1499.99</del></small> <span style="color: green;">10% Off</span></h3>
+        <h3 style="color: gray;">Size S, M, L, XL</h3>
+        <button>Add to cart</button>
+        <!-- <h2>&#8377;1299.99 <small><del>&#8377;1499.99</del></small> 10% Off</h2>
+        <h2>&#8377;1299.99 <big><del>&#8377;1499.99</del></big> 10% Off</h2> -->
+    </div>
+</div>
+
+<div class="gallery">
+    <a href="https://5.imimg.com/data5/SELLER/Default/2020/8/KG/AJ/MD/64760880/adidas-sports-shoes-500x500.jpg">
+        <img src="https://5.imimg.com/data5/SELLER/Default/2020/8/KG/AJ/MD/64760880/adidas-sports-shoes-500x500.jpg" height="280"/>
+    </a>
+    <div class="info">
+        <h3 style="color: gray;">Adidas</h3>
+        <h3>Sport Shoes</h3>
+        <h3>&#8377;2299.99 <small><del>&#8377;2499.99</del></small> <span style="color: green;">10% Off</span></h3>
+        <h3 style="color: gray;">Size S, M, L, XL</h3>
+        <button>Add to cart</button>
+    </div>
+</div>
+
+<div class="gallery">
+    <a href="https://m.media-amazon.com/images/I/61ZjlBOp+rL._SX425_.jpg
+    ">
+        <img src="https://m.media-amazon.com/images/I/61ZjlBOp+rL._SX425_.jpg
+        " height="280"/>
+    </a>
+    <div class="info">
+        <h3 style="color: gray;">Real Me</h3>
+        <h3>Smart Watch</h3>
+        <h3>&#8377;2299.99 <small><del>&#8377;2499.99</del></small> <span style="color: green;">10% Off</span></h3>
+        <h3 style="color: gray;">Size Regular</h3>
+        <button>Add to cart</button>
+    </div>
+</div>
+<div class="gallery">
+    <a href="https://m.media-amazon.com/images/I/6192vQUNCQL._UX569_.jpg">
+        <img src="https://m.media-amazon.com/images/I/6192vQUNCQL._UX569_.jpg" height="280"/>
+    </a>
+    <div class="info">
+        <h3 style="color: gray;">LEE</h3>
+        <h3>T-Shirt</h3>
+        <h3>&#8377;1299.99 <small><del>&#8377;1499.99</del></small> <span style="color: green;">10% Off</span></h3>
+        <h3 style="color: gray;">Size S, M, L, XL</h3>
+        <button>Add to cart</button>
+        <!-- <h2>&#8377;1299.99 <small><del>&#8377;1499.99</del></small> 10% Off</h2>
+        <h2>&#8377;1299.99 <big><del>&#8377;1499.99</del></big> 10% Off</h2> -->
+    </div>
+</div>
+
+<div class="gallery">
+    <a href="https://5.imimg.com/data5/XS/CN/MY-51547825/printed-500x500.jpg">
+        <img src="https://5.imimg.com/data5/XS/CN/MY-51547825/printed-500x500.jpg" height="280"/>
+    </a>
+    <div class="info">
+        <h3 style="color: gray;">John Player</h3>
+        <h3>Shirt</h3>
+        <h3>&#8377;1299.99 <small><del>&#8377;1499.99</del></small> <span style="color: green;">10% Off</span></h3>
+        <h3 style="color: gray;">Size S, M, L, XL</h3>
+        <button>Add to cart</button>
+        <!-- <h2>&#8377;1299.99 <small><del>&#8377;1499.99</del></small> 10% Off</h2>
+        <h2>&#8377;1299.99 <big><del>&#8377;1499.99</del></big> 10% Off</h2> -->
+    </div>
+</div>
+
+<div class="gallery">
+    <a href="https://5.imimg.com/data5/SELLER/Default/2020/8/KG/AJ/MD/64760880/adidas-sports-shoes-500x500.jpg">
+        <img src="https://5.imimg.com/data5/SELLER/Default/2020/8/KG/AJ/MD/64760880/adidas-sports-shoes-500x500.jpg" height="280"/>
+    </a>
+    <div class="info">
+        <h3 style="color: gray;">Adidas</h3>
+        <h3>Sport Shoes</h3>
+        <h3>&#8377;2299.99 <small><del>&#8377;2499.99</del></small> <span style="color: green;">10% Off</span></h3>
+        <h3 style="color: gray;">Size S, M, L, XL</h3>
+        <button>Add to cart</button>
+    </div>
+</div>
+
+<div class="gallery">
+    <a href="https://m.media-amazon.com/images/I/61ZjlBOp+rL._SX425_.jpg
+    ">
+        <img src="https://m.media-amazon.com/images/I/61ZjlBOp+rL._SX425_.jpg
+        " height="280"/>
+    </a>
+    <div class="info">
+        <h3 style="color: gray;">Real Me</h3>
+        <h3>Smart Watch</h3>
+        <h3>&#8377;2299.99 <small><del>&#8377;2499.99</del></small> <span style="color: green;">10% Off</span></h3>
+        <h3 style="color: gray;">Size Regular</h3>
+        <button>Add to cart</button>
+    </div>
+</div>
+<div class="gallery">
+    <a href="https://m.media-amazon.com/images/I/6192vQUNCQL._UX569_.jpg">
+        <img src="https://m.media-amazon.com/images/I/6192vQUNCQL._UX569_.jpg" height="280"/>
+    </a>
+    <div class="info">
+        <h3 style="color: gray;">LEE</h3>
+        <h3>T-Shirt</h3>
+        <h3>&#8377;1299.99 <small><del>&#8377;1499.99</del></small> <span style="color: green;">10% Off</span></h3>
+        <h3 style="color: gray;">Size S, M, L, XL</h3>
+        <button>Add to cart</button>
+        <!-- <h2>&#8377;1299.99 <small><del>&#8377;1499.99</del></small> 10% Off</h2>
+        <h2>&#8377;1299.99 <big><del>&#8377;1499.99</del></big> 10% Off</h2> -->
+    </div>
+</div>
+
+<div class="gallery">
+    <a href="https://5.imimg.com/data5/XS/CN/MY-51547825/printed-500x500.jpg">
+        <img src="https://5.imimg.com/data5/XS/CN/MY-51547825/printed-500x500.jpg" height="280"/>
+    </a>
+    <div class="info">
+        <h3 style="color: gray;">John Player</h3>
+        <h3>Shirt</h3>
+        <h3>&#8377;1299.99 <small><del>&#8377;1499.99</del></small> <span style="color: green;">10% Off</span></h3>
+        <h3 style="color: gray;">Size S, M, L, XL</h3>
+        <button>Add to cart</button>
+        <!-- <h2>&#8377;1299.99 <small><del>&#8377;1499.99</del></small> 10% Off</h2>
+        <h2>&#8377;1299.99 <big><del>&#8377;1499.99</del></big> 10% Off</h2> -->
+    </div>
+</div>
+
+<div class="gallery">
+    <a href="https://5.imimg.com/data5/SELLER/Default/2020/8/KG/AJ/MD/64760880/adidas-sports-shoes-500x500.jpg">
+        <img src="https://5.imimg.com/data5/SELLER/Default/2020/8/KG/AJ/MD/64760880/adidas-sports-shoes-500x500.jpg" height="280"/>
+    </a>
+    <div class="info">
+        <h3 style="color: gray;">Adidas</h3>
+        <h3>Sport Shoes</h3>
+        <h3>&#8377;2299.99 <small><del>&#8377;2499.99</del></small> <span style="color: green;">10% Off</span></h3>
+        <h3 style="color: gray;">Size S, M, L, XL</h3>
+        <button>Add to cart</button>
+    </div>
+</div>
+
+<div class="gallery">
+    <a href="https://m.media-amazon.com/images/I/61ZjlBOp+rL._SX425_.jpg
+    ">
+        <img src="https://m.media-amazon.com/images/I/61ZjlBOp+rL._SX425_.jpg
+        " height="280"/>
+    </a>
+    <div class="info">
+        <h3 style="color: gray;">Real Me</h3>
+        <h3>Smart Watch</h3>
+        <h3>&#8377;2299.99 <small><del>&#8377;2499.99</del></small> <span style="color: green;">10% Off</span></h3>
+        <h3 style="color: gray;">Size Regular</h3>
+        <button>Add to cart</button>
+    </div>
+</div>
+<div class="gallery">
+    <a href="https://m.media-amazon.com/images/I/6192vQUNCQL._UX569_.jpg">
+        <img src="https://m.media-amazon.com/images/I/6192vQUNCQL._UX569_.jpg" height="280"/>
+    </a>
+    <div class="info">
+        <h3 style="color: gray;">LEE</h3>
+        <h3>T-Shirt</h3>
+        <h3>&#8377;1299.99 <small><del>&#8377;1499.99</del></small> <span style="color: green;">10% Off</span></h3>
+        <h3 style="color: gray;">Size S, M, L, XL</h3>
+        <button>Add to cart</button>
+        <!-- <h2>&#8377;1299.99 <small><del>&#8377;1499.99</del></small> 10% Off</h2>
+        <h2>&#8377;1299.99 <big><del>&#8377;1499.99</del></big> 10% Off</h2> -->
+    </div>
+</div>
+
+<div class="gallery">
+    <a href="https://5.imimg.com/data5/XS/CN/MY-51547825/printed-500x500.jpg">
+        <img src="https://5.imimg.com/data5/XS/CN/MY-51547825/printed-500x500.jpg" height="280"/>
+    </a>
+    <div class="info">
+        <h3 style="color: gray;">John Player</h3>
+        <h3>Shirt</h3>
+        <h3>&#8377;1299.99 <small><del>&#8377;1499.99</del></small> <span style="color: green;">10% Off</span></h3>
+        <h3 style="color: gray;">Size S, M, L, XL</h3>
+        <button>Add to cart</button>
+        <!-- <h2>&#8377;1299.99 <small><del>&#8377;1499.99</del></small> 10% Off</h2>
+        <h2>&#8377;1299.99 <big><del>&#8377;1499.99</del></big> 10% Off</h2> -->
+    </div>
+</div>
+
+<div class="gallery">
+    <a href="https://5.imimg.com/data5/SELLER/Default/2020/8/KG/AJ/MD/64760880/adidas-sports-shoes-500x500.jpg">
+        <img src="https://5.imimg.com/data5/SELLER/Default/2020/8/KG/AJ/MD/64760880/adidas-sports-shoes-500x500.jpg" height="280"/>
+    </a>
+    <div class="info">
+        <h3 style="color: gray;">Adidas</h3>
+        <h3>Sport Shoes</h3>
+        <h3>&#8377;2299.99 <small><del>&#8377;2499.99</del></small> <span style="color: green;">10% Off</span></h3>
+        <h3 style="color: gray;">Size S, M, L, XL</h3>
+        <button>Add to cart</button>
+    </div>
+</div>
+
+<div class="gallery">
+    <a href="https://m.media-amazon.com/images/I/61ZjlBOp+rL._SX425_.jpg
+    ">
+        <img src="https://m.media-amazon.com/images/I/61ZjlBOp+rL._SX425_.jpg
+        " height="280"/>
+    </a>
+    <div class="info">
+        <h3 style="color: gray;">Real Me</h3>
+        <h3>Smart Watch</h3>
+        <h3>&#8377;2299.99 <small><del>&#8377;2499.99</del></small> <span style="color: green;">10% Off</span></h3>
+        <h3 style="color: gray;">Size Regular</h3>
+        <button>Add to cart</button>
+    </div>
+</div>
+<div class="gallery">
+    <a href="https://m.media-amazon.com/images/I/6192vQUNCQL._UX569_.jpg">
+        <img src="https://m.media-amazon.com/images/I/6192vQUNCQL._UX569_.jpg" height="280"/>
+    </a>
+    <div class="info">
+        <h3 style="color: gray;">LEE</h3>
+        <h3>T-Shirt</h3>
+        <h3>&#8377;1299.99 <small><del>&#8377;1499.99</del></small> <span style="color: green;">10% Off</span></h3>
+        <h3 style="color: gray;">Size S, M, L, XL</h3>
+        <button>Add to cart</button>
+        <!-- <h2>&#8377;1299.99 <small><del>&#8377;1499.99</del></small> 10% Off</h2>
+        <h2>&#8377;1299.99 <big><del>&#8377;1499.99</del></big> 10% Off</h2> -->
+    </div>
+</div>
+
+<div class="gallery">
+    <a href="https://5.imimg.com/data5/XS/CN/MY-51547825/printed-500x500.jpg">
+        <img src="https://5.imimg.com/data5/XS/CN/MY-51547825/printed-500x500.jpg" height="280"/>
+    </a>
+    <div class="info">
+        <h3 style="color: gray;">John Player</h3>
+        <h3>Shirt</h3>
+        <h3>&#8377;1299.99 <small><del>&#8377;1499.99</del></small> <span style="color: green;">10% Off</span></h3>
+        <h3 style="color: gray;">Size S, M, L, XL</h3>
+        <button>Add to cart</button>
+        <!-- <h2>&#8377;1299.99 <small><del>&#8377;1499.99</del></small> 10% Off</h2>
+        <h2>&#8377;1299.99 <big><del>&#8377;1499.99</del></big> 10% Off</h2> -->
+    </div>
+</div>
+
+<div class="gallery">
+    <a href="https://5.imimg.com/data5/SELLER/Default/2020/8/KG/AJ/MD/64760880/adidas-sports-shoes-500x500.jpg">
+        <img src="https://5.imimg.com/data5/SELLER/Default/2020/8/KG/AJ/MD/64760880/adidas-sports-shoes-500x500.jpg" height="280"/>
+    </a>
+    <div class="info">
+        <h3 style="color: gray;">Adidas</h3>
+        <h3>Sport Shoes</h3>
+        <h3>&#8377;2299.99 <small><del>&#8377;2499.99</del></small> <span style="color: green;">10% Off</span></h3>
+        <h3 style="color: gray;">Size S, M, L, XL</h3>
+        <button>Add to cart</button>
+    </div>
+</div>
+
+<div class="gallery">
+    <a href="https://m.media-amazon.com/images/I/61ZjlBOp+rL._SX425_.jpg
+    ">
+        <img src="https://m.media-amazon.com/images/I/61ZjlBOp+rL._SX425_.jpg
+        " height="280"/>
+    </a>
+    <div class="info">
+        <h3 style="color: gray;">Real Me</h3>
+        <h3>Smart Watch</h3>
+        <h3>&#8377;2299.99 <small><del>&#8377;2499.99</del></small> <span style="color: green;">10% Off</span></h3>
+        <h3 style="color: gray;">Size Regular</h3>
+        <button>Add to cart</button>
+    </div>
+</div>
+<div class="gallery">
+    <a href="https://m.media-amazon.com/images/I/6192vQUNCQL._UX569_.jpg">
+        <img src="https://m.media-amazon.com/images/I/6192vQUNCQL._UX569_.jpg" height="280"/>
+    </a>
+    <div class="info">
+        <h3 style="color: gray;">LEE</h3>
+        <h3>T-Shirt</h3>
+        <h3>&#8377;1299.99 <small><del>&#8377;1499.99</del></small> <span style="color: green;">10% Off</span></h3>
+        <h3 style="color: gray;">Size S, M, L, XL</h3>
+        <button>Add to cart</button>
+        <!-- <h2>&#8377;1299.99 <small><del>&#8377;1499.99</del></small> 10% Off</h2>
+        <h2>&#8377;1299.99 <big><del>&#8377;1499.99</del></big> 10% Off</h2> -->
+    </div>
+</div>
+
+<div class="gallery">
+    <a href="https://5.imimg.com/data5/XS/CN/MY-51547825/printed-500x500.jpg">
+        <img src="https://5.imimg.com/data5/XS/CN/MY-51547825/printed-500x500.jpg" height="280"/>
+    </a>
+    <div class="info">
+        <h3 style="color: gray;">John Player</h3>
+        <h3>Shirt</h3>
+        <h3>&#8377;1299.99 <small><del>&#8377;1499.99</del></small> <span style="color: green;">10% Off</span></h3>
+        <h3 style="color: gray;">Size S, M, L, XL</h3>
+        <button>Add to cart</button>
+        <!-- <h2>&#8377;1299.99 <small><del>&#8377;1499.99</del></small> 10% Off</h2>
+        <h2>&#8377;1299.99 <big><del>&#8377;1499.99</del></big> 10% Off</h2> -->
+    </div>
+</div>
+
+<div class="gallery">
+    <a href="https://5.imimg.com/data5/SELLER/Default/2020/8/KG/AJ/MD/64760880/adidas-sports-shoes-500x500.jpg">
+        <img src="https://5.imimg.com/data5/SELLER/Default/2020/8/KG/AJ/MD/64760880/adidas-sports-shoes-500x500.jpg" height="280"/>
+    </a>
+    <div class="info">
+        <h3 style="color: gray;">Adidas</h3>
+        <h3>Sport Shoes</h3>
+        <h3>&#8377;2299.99 <small><del>&#8377;2499.99</del></small> <span style="color: green;">10% Off</span></h3>
+        <h3 style="color: gray;">Size S, M, L, XL</h3>
+        <button>Add to cart</button>
+    </div>
+</div>
+
+<div class="gallery">
+    <a href="https://m.media-amazon.com/images/I/61ZjlBOp+rL._SX425_.jpg
+    ">
+        <img src="https://m.media-amazon.com/images/I/61ZjlBOp+rL._SX425_.jpg
+        " height="280"/>
+    </a>
+    <div class="info">
+        <h3 style="color: gray;">Real Me</h3>
+        <h3>Smart Watch</h3>
+        <h3>&#8377;2299.99 <small><del>&#8377;2499.99</del></small> <span style="color: green;">10% Off</span></h3>
+        <h3 style="color: gray;">Size Regular</h3>
+        <button>Add to cart</button>
+    </div>
+</div>
+<div class="gallery">
+    <a href="https://m.media-amazon.com/images/I/6192vQUNCQL._UX569_.jpg">
+        <img src="https://m.media-amazon.com/images/I/6192vQUNCQL._UX569_.jpg" height="280"/>
+    </a>
+    <div class="info">
+        <h3 style="color: gray;">LEE</h3>
+        <h3>T-Shirt</h3>
+        <h3>&#8377;1299.99 <small><del>&#8377;1499.99</del></small> <span style="color: green;">10% Off</span></h3>
+        <h3 style="color: gray;">Size S, M, L, XL</h3>
+        <button>Add to cart</button>
+        <!-- <h2>&#8377;1299.99 <small><del>&#8377;1499.99</del></small> 10% Off</h2>
+        <h2>&#8377;1299.99 <big><del>&#8377;1499.99</del></big> 10% Off</h2> -->
+    </div>
+</div>
+
+<div class="gallery">
+    <a href="https://5.imimg.com/data5/XS/CN/MY-51547825/printed-500x500.jpg">
+        <img src="https://5.imimg.com/data5/XS/CN/MY-51547825/printed-500x500.jpg" height="280"/>
+    </a>
+    <div class="info">
+        <h3 style="color: gray;">John Player</h3>
+        <h3>Shirt</h3>
+        <h3>&#8377;1299.99 <small><del>&#8377;1499.99</del></small> <span style="color: green;">10% Off</span></h3>
+        <h3 style="color: gray;">Size S, M, L, XL</h3>
+        <button>Add to cart</button>
+        <!-- <h2>&#8377;1299.99 <small><del>&#8377;1499.99</del></small> 10% Off</h2>
+        <h2>&#8377;1299.99 <big><del>&#8377;1499.99</del></big> 10% Off</h2> -->
+    </div>
+</div>
+
+<div class="gallery">
+    <a href="https://5.imimg.com/data5/SELLER/Default/2020/8/KG/AJ/MD/64760880/adidas-sports-shoes-500x500.jpg">
+        <img src="https://5.imimg.com/data5/SELLER/Default/2020/8/KG/AJ/MD/64760880/adidas-sports-shoes-500x500.jpg" height="280"/>
+    </a>
+    <div class="info">
+        <h3 style="color: gray;">Adidas</h3>
+        <h3>Sport Shoes</h3>
+        <h3>&#8377;2299.99 <small><del>&#8377;2499.99</del></small> <span style="color: green;">10% Off</span></h3>
+        <h3 style="color: gray;">Size S, M, L, XL</h3>
+        <button>Add to cart</button>
+    </div>
+</div>
+
+<div class="gallery">
+    <a href="https://m.media-amazon.com/images/I/61ZjlBOp+rL._SX425_.jpg
+    ">
+        <img src="https://m.media-amazon.com/images/I/61ZjlBOp+rL._SX425_.jpg
+        " height="280"/>
+    </a>
+    <div class="info">
+        <h3 style="color: gray;">Real Me</h3>
+        <h3>Smart Watch</h3>
+        <h3>&#8377;2299.99 <small><del>&#8377;2499.99</del></small> <span style="color: green;">10% Off</span></h3>
+        <h3 style="color: gray;">Size Regular</h3>
+        <button>Add to cart</button>
+    </div>
+</div>
+
+</div>
